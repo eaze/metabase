@@ -57,7 +57,7 @@ const SCROLL_MARGIN = 8;
 const LINE_HEIGHT = 16;
 
 const MIN_HEIGHT_LINES = 1;
-const MAX_AUTO_SIZE_LINES = 12;
+const MAX_AUTO_SIZE_LINES = 50;
 
 const getEditorLineHeight = (lines) => lines * LINE_HEIGHT + 2 * SCROLL_MARGIN;
 
