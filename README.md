@@ -76,6 +76,10 @@ Go to the [Metabase Download Page](http://www.metabase.com/start/) and download 
 java -jar metabase.jar
 ```
 
+**To Compile from Source:**
+Download the following 3rd party dependencies: `brew install yarn` and `brew install leinengen`.
+Compile with `bin/build`.
+
 Now, open a browser and go to [http://localhost:3000](http://localhost:3000) , and you will be asked a set of questions that will set up a user account, and then you can add a database connection. For this to work you will need to get some information about which database you want to connect to, such as the Host Name and Port that it is running on, the Database Name and the User and Password that you will be using.
 
 Once you have added this connection, you will be taken into the app and you'll be ready to ask your first question.
